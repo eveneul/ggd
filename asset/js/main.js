@@ -27,7 +27,7 @@ $(function () {
 	var mainSwiper = new Swiper('.sc-main-slide', {
 		loop: true,
 		autoplay: {
-			delay: 300,
+			delay: 5000,
 		},
 		navigation: {
 			nextEl: '.swiper-button-next',
@@ -59,7 +59,7 @@ $(function () {
 		mousewheel: false,
 		loop: true,
 		autoplay: {
-			delay: 300,
+			delay: 5000,
 		},
 		navigation: {
 			nextEl: '.next',
@@ -72,7 +72,7 @@ $(function () {
 	var swiper = new Swiper('.popupnews-slide', {
 		loop: true,
 		autoplay: {
-			delay: 300,
+			delay: 5000,
 		},
 		pagination: {
 			el: '.pagination',
@@ -95,7 +95,7 @@ $(function () {
 			prevEl: '.keyword-prev',
 		},
 		autoplay: {
-			delay: 300,
+			delay: 5000,
 		},
 	});
 
