@@ -116,9 +116,6 @@ $(function () {
 		$(this).children('.title').attr('aria-selected', true);
 	});
 
-	const testel = $('.notice-item').find('ul li');
-	testel.focus(() => console.log('ㄴ[ㄴ'));
-
 	$('.notice-item h3').keyup(function (key) {
 		if (key.keyCode == 13) {
 			$('.notice-item').removeClass('on');
