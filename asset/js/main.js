@@ -51,6 +51,14 @@ $(function () {
 			$(this).removeClass('play').addClass('stop');
 		}
 	});
+
+	$('.sc-main-slide .swiper-controls .prev').click(() => {
+		mainSwiper.slidePrev();
+	});
+
+	$('.sc-main-slide .swiper-controls .next').click(() => {
+		mainSwiper.slideNext();
+	});
 	// side news swiper
 
 	var swiper = new Swiper('.sidenews-slide', {
