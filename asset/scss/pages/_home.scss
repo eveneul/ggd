@@ -922,11 +922,16 @@
 		background-color: #eaeaea;
 
 		.pagination {
+			display: flex;
 			font-weight: bold;
 			font-size: 1rem;
 			color: #2f2f2f;
 			margin-right: 6px;
 			width: 30px;
+
+			span {
+				padding: 0 3px;
+			}
 		}
 
 		.btn-set {

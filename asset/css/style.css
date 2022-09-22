@@ -1438,11 +1438,15 @@ ol {
   background-color: #eaeaea;
 }
 .sc-side-slide .swiper-menu .pagination {
+  display: flex;
   font-weight: bold;
   font-size: 1rem;
   color: #2f2f2f;
   margin-right: 6px;
   width: 30px;
+}
+.sc-side-slide .swiper-menu .pagination span {
+  padding: 0 3px;
 }
 .sc-side-slide .swiper-menu .btn-set {
   width: 25px;
